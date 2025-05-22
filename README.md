@@ -4,9 +4,9 @@ Baremetal I2C QtSensor Plugin for VL53L0X ToF Sensor
 
 Run the following commands in a terminal session to download and setup the plugin
 ```console
-git clone https://github.com/DigitalArtifex/qt-sensors-mpu6050.git
-mkdir qt-sensors-mpu6050/build
-cd qt-sensors-mpu6050/build
+git clone https://github.com/DigitalArtifex/qt-sensors-vl53l0x.git
+mkdir qt-sensors-vl53l0x/build
+cd qt-sensors-vl53l0x/build
 ```
 
 Next, we will need to configure the project against your Qt Installation by executing `qt-cmake` located in `<Qt Path>/<Version>/<Arch>/bin`. Typically, the Qt Path will be `~/Qt`, but can be `/opt/Qt` if installed with sudo, or elsewhere if configured differently. The example assumes Qt Path to be `/opt/Qt`, Qt Version to be `6.9.0` and the arch to be `gcc_arm64`
